@@ -1,0 +1,41 @@
+# --- Banco de dados local ---
+*.db
+*.sqlite
+*.sqlite3
+*.mdb
+*.accdb
+
+# --- Backups / dumps ---
+*.bak
+*.backup
+*.dump
+
+# --- Logs ---
+*.log
+
+# --- Arquivos temporários ---
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# --- Variáveis de ambiente / credenciais ---
+.env
+.env.*
+!.env.example
+
+# --- Configurações locais de IDE ---
+.vscode/
+.idea/
+
+# --- Arquivos do sistema operacional ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Arquivos de cache ---
+.cache/
+__pycache__/
+
+# --- Arquivos de configuração local ---
+*.local
